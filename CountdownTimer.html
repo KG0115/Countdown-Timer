@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CountdownTimer.css"/>
+    <title>Countdown Timer</title>
+</head>
+<body onload= "updateCountdown();">
+<div class="container">
+<p class="headline">Countdown For My Birthday</p>
+<div class="datetime">
+    <div class="time">
+        <div><span id ="days">00</span>: <h2>days</h2></div>
+        <div><span id="hours">00</span>: <h2>hours</h2></div>
+        <div><span id="minutes">00</span>: <h2>minutes</h2></div>
+        <div><span id="seconds">00</span> <h2>seconds</h2></div>
+    </div>
+</div>
+<button class="button-17" role="button" id="startButton">Start</button>
+<button class="button-17" role="button" id="stopButton">Stop</button>
+</div>
+<script src="CDT.js"></script>
+</body>
+</html>
